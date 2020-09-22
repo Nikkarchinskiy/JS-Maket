@@ -1,0 +1,126 @@
+body{
+    font-family: TT Norms;
+}
+.main-header{
+    max-width: 1248px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.l-sidebar-header{
+    display: flex;
+    width: 344px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 18px;
+}
+.a-vestfrost{
+    margin-right: 20px;
+}
+.a-header-left{
+    border: 1px solid #002E5D;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    padding-left: 18px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.span-header-left{
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #002E5D;
+}
+.svg-katalog{
+    top: 50%;
+    transform: translateY(17%);
+}
+.c-sidebar-header{
+    display: flex;
+    align-items: center;
+    width: 610px;
+    position: relative;
+}
+.c-sidebar-header::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/lypa.svg);
+    background-repeat: no-repeat;
+    right: 0;
+}
+.header-search{
+    width: 610px;
+    border: none;
+    border-bottom: 2px solid #F4F4F9;
+}
+
+.header-search:focus{
+    outline: none;
+}
+.lypa{
+    right: 0;
+}
+.r-sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.tyrbota{
+    text-decoration: none;
+    color: #002E5D;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #F4F4F9;
+    border-radius: 10px;
+    padding: 12px 18px;
+    margin-right: 20px;
+}
+.svg-tyrbota{
+    bottom: 50%;
+    margin-left: 10px;
+    transform: translateY(25%);
+}
+.porivnyati{
+    position: relative;
+}
+.span-porivnyati{
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: #FF6644;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 8px;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    top: -7px;
+    right: -9px;
+}
+.svg-menu{
+    margin-left: 25px;
+}
+
+
+/* Хедер конец */
+
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.a-content{
+    width: 228px;
+    height: 240px;
+}
